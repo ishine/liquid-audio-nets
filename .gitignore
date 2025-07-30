@@ -205,3 +205,55 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Rust
+Cargo.lock
+*.pdb
+
+# C/C++
+*.o
+*.obj
+*.a
+*.lib
+*.exp
+*.ilk
+*.pch
+*.gch
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+CTestTestfile.cmake
+Testing/
+
+# Embedded development
+*.bin
+*.hex
+*.elf
+*.map
+*.lst
+
+# Security - Never commit these
+*.key
+*.pem
+*.p12
+*.pfx
+secrets.yaml
+secrets.json
+.env.production
+.env.local
+
+# Audio data and models (often large)
+*.wav
+*.mp3
+*.flac
+*.lnn
+models/
+datasets/
+data/
+!datasets/sample/
+!models/README.md
+
+# IDE specific additions
+.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/launch.json
