@@ -1,0 +1,32 @@
+# Global code owners
+* @maintainer-team
+
+# Language-specific ownership
+*.rs @rust-team
+*.py @python-team @ml-team
+*.{c,cpp,h,hpp} @embedded-team @rust-team
+*.{cmake,CMakeLists.txt} @embedded-team
+
+# Configuration and tooling
+/.github/ @devops-team
+/scripts/ @devops-team @security-team
+/docs/ @docs-team @maintainer-team
+/monitoring/ @devops-team @sre-team
+.pre-commit-config.yaml @devops-team
+renovate.json @devops-team
+.github/dependabot.yml @devops-team
+
+# Security-sensitive files
+/scripts/security_check.py @security-team
+.secrets.baseline @security-team
+SECURITY.md @security-team
+
+# Build and deployment
+Cargo.toml @rust-team @maintainer-team
+pyproject.toml @python-team @maintainer-team
+CMakeLists.txt @embedded-team @maintainer-team
+Dockerfile.dev @devops-team
+docker-compose.yml @devops-team
+
+# Testing
+/tests/ @maintainer-team @qa-team

@@ -1,0 +1,53 @@
+{
+  "metadata": {
+    "generated_at": "2025-08-01T01:03:45.505573+00:00",
+    "total_items": 3,
+    "discovery_sources": [
+      "gitHistory"
+    ]
+  },
+  "items": [
+    {
+      "id": "todo-3236",
+      "title": "TODO: # TODO: Implement model loading from .lnn format...",
+      "description": "Found in python/liquid_audio_nets/lnn.py:57 - # TODO: Implement model loading from .lnn format",
+      "category": "technical_debt",
+      "source": "gitHistory",
+      "files_affected": [
+        "python/liquid_audio_nets/lnn.py"
+      ],
+      "composite_score": 40,
+      "priority": "low",
+      "estimated_hours": 1.0,
+      "created_at": "2025-08-01T01:03:45.493994+00:00"
+    },
+    {
+      "id": "todo-0011",
+      "title": "TODO: # TODO: Implement core LNN processing...",
+      "description": "Found in python/liquid_audio_nets/lnn.py:77 - # TODO: Implement core LNN processing",
+      "category": "technical_debt",
+      "source": "gitHistory",
+      "files_affected": [
+        "python/liquid_audio_nets/lnn.py"
+      ],
+      "composite_score": 40,
+      "priority": "low",
+      "estimated_hours": 1.0,
+      "created_at": "2025-08-01T01:03:45.494088+00:00"
+    },
+    {
+      "id": "todo-8405",
+      "title": "TODO: # TODO: Implement activity detection...",
+      "description": "Found in python/liquid_audio_nets/lnn.py:100 - # TODO: Implement activity detection",
+      "category": "technical_debt",
+      "source": "gitHistory",
+      "files_affected": [
+        "python/liquid_audio_nets/lnn.py"
+      ],
+      "composite_score": 40,
+      "priority": "low",
+      "estimated_hours": 1.0,
+      "created_at": "2025-08-01T01:03:45.494110+00:00"
+    }
+  ]
+}
