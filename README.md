@@ -307,7 +307,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 ```bibtex
 @inproceedings{liquid_audio_nets,
   title={Liquid Neural Networks for Ultra-Low-Power Audio Processing},
-  author={Your Name},
+  author={Daniel Schmidt},
   booktitle={International Conference on Acoustics, Speech and Signal Processing},
   year={2025}
 }
